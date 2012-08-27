@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package namespace="/admin" name="admin" extends="struts-default">
+		<interceptors>
+			<interceptor name="permission"
+				class="permissionInterceptor" />
+			<interceptor-stack name="permissionStack">
+				<interceptor-ref name="permission" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="permissionStack" />
+		
+		<global-results>
+			<result name="error">/WEB-INF/jsp/error.jsp</result>
+			<result name="login" type="redirect">/login.do</result>
+		</global-results>
+		
+		<global-exception-mappings>
+			<exception-mapping result="error" exception="java.lang.Exception"/>
+		</global-exception-mappings>
+		<action name="sys_*" method="{1}" class="systemAction">
+			<result name="index">/WEB-INF/jsp/index.jsp</result>
+			<result name="top">/WEB-INF/jsp/top.jsp</result>
+			<result name="left">/WEB-INF/jsp/left.jsp</result>
+			<result name="right">/WEB-INF/jsp/right.jsp</result>
+			<result name="middle">/WEB-INF/jsp/middle.jsp</result>
+		</action>
+		<action name="admin_*" method="{1}" class="adminAction">
+			<result name="add">/WEB-INF/jsp/admin/add.jsp</result>
+			<result name="edit">/WEB-INF/jsp/admin/edit.jsp</result>
+			<result name="list">/WEB-INF/jsp/admin/list.jsp</result>
+			<result name="info">/WEB-INF/jsp/admin/info.jsp</result>
+		</action>
+		<action name="module_*" method="{1}" class="moduleAction">
+			<result name="edit">/WEB-INF/jsp/module/edit.jsp</result>
+		</action>
+		<action name="role_*" method="{1}" class="roleAction">
+			<result name="add">/WEB-INF/jsp/role/add.jsp</result>
+			<result name="edit">/WEB-INF/jsp/role/edit.jsp</result>
+			<result name="list">/WEB-INF/jsp/role/list.jsp</result>
+		</action>
+		<action name="data_*" method="{1}" class="dataAction">
+			<result name="input">
+				<param name="location">/WEB-INF/jsp/data/main.jsp</param>
+			</result>
+			<result name="main">/WEB-INF/jsp/data/main.jsp</result>
+			<result name="backup">/WEB-INF/jsp/data/backup.jsp</result>
+		</action>
+		<action name="news_*" method="{1}" class="newsAction">
+			<result name="add">/WEB-INF/jsp/news/add.jsp</result>
+			<result name="edit">/WEB-INF/jsp/news/edit.jsp</result>
+			<result name="list">/WEB-INF/jsp/news/list.jsp</result>
+			<result name="view">/WEB-INF/jsp/news/view.jsp</result>
+		</action>	
+		<action name="user_*" method="{1}" class="userAction">
+			<result name="add">/WEB-INF/jsp/user/add.jsp</result>
+			<result name="edit">/WEB-INF/jsp/user/edit.jsp</result>
+			<result name="list">/WEB-INF/jsp/user/list.jsp</result>
+			<result name="view">/WEB-INF/jsp/user/view.jsp</result>
+		</action>
+		<action name="comment_*" method="{1}" class="commentAction">
+			<result name="list">/WEB-INF/jsp/comment/list.jsp</result>
+			<result name="view">/WEB-INF/jsp/comment/view.jsp</result>
+		</action>	
+		<action name="region_*" method="{1}" class="regionAction">
+			<result name="add">/WEB-INF/jsp/region/add.jsp</result>
+			<result name="edit">/WEB-INF/jsp/region/edit.jsp</result>
+			<result name="list">/WEB-INF/jsp/region/list.jsp</result>
+		</action>						
+	</package>
+</struts>

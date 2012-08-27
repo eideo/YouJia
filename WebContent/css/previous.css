@@ -1,0 +1,12 @@
+#container{width:960px;margin:0 auto;}
+#nav{height:58px;background:#eee;position:relative}
+#pre_main{overflow:hidden}
+#pre_left{padding:15px 0px;width:753px;float:left;margin-bottom: -10000px;overflow: hidden;padding-bottom: 10000px;}
+#pre_right{background:url(../images/vote_bg.gif);width:207px;margin-bottom: -10000px;overflow: hidden;padding-bottom: 10000px;float:right}
+#pre_left img {float:left}
+.show_dis{float:left;margin-right:14px;margin-bottom:10px}
+.sel .a{background:url(../images/distct_sel.gif);width:28px;height:28px;float:left}
+.sel .b{background:#f83676;color:#fff;font-weight:bold;height:21px;float:left;padding-top:7px;cursor:pointer}
+.unsel .a{background:url(../images/distct_unsel.gif);width:28px;height:28px;float:left}
+.unsel .b{background:#282D2C;color:#A7A7A7;font-weight:bold;height:21px;float:left;padding-top:7px;cursor:pointer}
+.copyright{width:960px;height:29px;background:url(../images/copyright.gif)}

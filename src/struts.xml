@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<include file="struts-admin.xml"></include>
+	<include file="struts-show.xml"></include>
+	<include file="struts-voter.xml"></include>
+	<constant name="struts.action.extension" value="do" />
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.i18n.encoding" value="UTF8" />
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<constant name="struts.devMode" value="true" />
+	<package name="default" extends="struts-default">
+		<action name="randomCode" class="randomAction"></action>
+		<action name="login" method="login" class="adminAction">
+			<result name="login">/WEB-INF/jsp/login.jsp</result>
+			<result name="success" type="redirect">/admin/sys_index.do</result>
+		</action>
+		<action name="*" method="{1}" class="homeAction">
+			<result name="index">/WEB-INF/jsp/home/index.jsp</result>
+			<result name="previous">/WEB-INF/jsp/home/previous.jsp</result>
+			<result name="rank">/WEB-INF/jsp/show/index.jsp</result>
+			<result name="news">/WEB-INF/jsp/home/news.jsp</result>
+			<result name="users">/WEB-INF/jsp/home/users.jsp</result>
+			<result name="intro">/WEB-INF/jsp/home/intro.jsp</result>
+			<result name="reward">/WEB-INF/jsp/home/reward.jsp</result>
+		</action>	
+		<action name="list_news" method="listNews" class="newsAction">
+			<result name="list_news">/WEB-INF/jsp/news/list_news.jsp</result>
+			<result name="success" type="redirect">/admin/sys_index.do</result>
+		</action>								
+	</package>
+</struts>

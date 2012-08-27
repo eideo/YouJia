@@ -1,0 +1,68 @@
+body{margin:0;padding:0;font-size:12px;text-align:center;font-family:"Segoe UI",Tahoma,Geneva,Verdana, "宋体"}
+#nav1{position:absolute;left:92px;top:22px}
+#nav2{position:absolute;left:265px;top:22px}
+#nav3{position:absolute;left:441px;top:22px}
+#nav4{position:absolute;left:620px;top:22px}
+#nav5{position:absolute;left:782px;top:22px}
+/*我要报名*/
+#login{width:211px;height:177px;}
+#login_header{background:url(../images/login_header.gif);width:211px;height:23px}
+#login_main{height:113px;background:#000;padding:12px 0 0 15px}
+#login_footer{background:url(../images/lr_bottom.gif) no-repeat;width:211px;height:4px;}
+.login_input{width:179px;height:19px;background:url(../images/input.gif) no-repeat;padding:5px 3px 3px 3px;margin-bottom:9px;overflow:hidden}
+.login_input2{width:179px;height:19px;background:url(../images/verify.gif) no-repeat;overflow:hiddenpadding:5px 3px 3px 3px;margin-bottom:9px;position:relative}
+.login_input input{width:173px;height:20px;padding:0;margin:0;background:transparent;border:0;color:#A5A6A3;font-weight:bold}
+.login_input2 input {width:50px;height:27px;padding:0;margin:0;background:transparent;border:0;color:#A5A6A3;font-weight:bold}
+#login_btn{background:#000;position:relative;height:26px;}
+.login{position:absolute;left:17px;top:0;cursor:pointer}
+.reg{position:absolute;right:14px;top:0;cursor:pointer}
+/*我要投票*/
+#vote_reg{width:298px;height:228px;text-align:center;}
+#vote_main{width:276px;margin:0 auto}
+#vote_header{background:url(../images/vote_header.gif);width:298px;height:32px}
+.vote_input{width:276px;height:30px;background:url(../images/vote_input.gif);margin-bottom:10px;text-align:left}
+#vote_footer{background:url(../images/vote_footer.gif);width:298px;height:10px}
+.vote_verify{width:276px;height:30px;margin-bottom:10px;text-align:left}
+.vote_submit{width:276px;height:26px;background:url(../images/vote_login.gif);cursor:pointer}
+.vote_input_text{background:transparent;border:0;margin:0;padding:0;width:270px;height:24px;padding-left:6px;color:#a9a9a9;padding-top:6px}
+.vote_verify_text{background:url(../images/vote_verify.gif);width:132px;height:20px;padding:0;padding-left:6px;border:0;color:#a9a9a9;padding-top:6px}
+/*参赛注册*/
+#reg_box{width:860px;height:657px;position:relative}
+#reg_box_header{width:860px;height:62px;background:url(../images/reg_header.gif)}
+#reg_box_main{height:500px;background:#fff;padding-left:215px;color:#000}
+#reg_box_main_c{width:480px;height:480px;padding-top:4px;text-align:left}
+#reg_box_footer{width:860px;height:17px;background:url(../images/reg_footer.gif)}
+.reg_box_c{width:340px;clear:both;padding-top:5px;}
+.reg_box_c2{width:450px;height:60px;padding-top:5px;clear:both}
+.reg_box_c div{float:left}
+.reg_box_c2 div{float:left}
+.reg_box_select{width:144px;height:23px;}
+.reg_box_input{width:144px;height:23px;background:url(../images/reg_input.gif);}
+.reg_box_input2{width:252px;height:23px;background:url(../images/reg_input2.gif)}
+.reg_box_area{width:316px;padding-left:5px;padding-top:4px;height:57px;background:url(../images/bio.gif)}
+#bio{background:transparent;width:305px;border:0px;color:#bcbcbc;overflow:hidden;height:50px;font-size:12px;}
+.reg_box_verify{width:50px;height:24px;background:url(../images/reg_verify.gif);}
+.reg_box_input input{width:144px;height:20px;border:0;background:transparent;color:#9b9b9b}
+.reg_box_input2 input{width:252px;height:20px;border:0;background:transparent;color:#9b9b9b}		
+.reg_box_verify input{width:45px;height:20px;border:0;background:transparent;color:#9b9b9b}
+.reg_close{cursor:pointer;position:absolute;right:32px;top:11px}
+.vote_close{cursor:pointer;position:absolute;left:265px;top:7px}
+.login_close{cursor:pointer;position:absolute;left:185px;top:7px}
+.reg_submit{cursor:pointer;position:absolute;right:32px;top:540px}
+.reg_up{cursor:pointer}
+#reg_pic{border:0 yellow}
+ul{list-style-type: none;margin:0 auto;padding:0;}
+ul, ol ,li{list-style-type: none;border: 0 none;margin: 0;padding: 0;}
+
+a {text-decoration: none;}
+.logout{position:absolute;right:38px;}
+#up_file_btn{z-index:100px;width:43px;height:14px;position:absolute;top:130px;left:269px;background:url(../images/reg_up.gif);}
+.qq-upload-button{width:43px;height:14px}
+.qq-upload-list{color:#000}
+#pic_confirm{height:574px;height:755px}
+#pic_confirm_h{width:755px;height:145px;position:relative;background:url(../images/confirm_header.gif)}
+#pic_small{position:absolute;left:189px;top:274px;width:166px;height:141px;}
+#pic_medium{position:absolute;left:419px;top:146px;width:165px;height:269px;}
+#pic_confirm_m{width:755px;height:273px;background:url(../images/confirm_main.gif)}
+#pic_confirm_f{width:755px;height:156px;background:url(../images/confirm_footer.gif)}
+#btn_c{position:absolute;left:245px;top:449px;cursor:pointer;}

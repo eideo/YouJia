@@ -1,0 +1,13 @@
+#container{width:960px;margin:0 auto;}
+#nav{height:15px;background:#000;padding:12px 44px;position:relative}
+#pre_main{overflow:hidden}
+#pre_left{padding:15px 18px;width:717px;float:left;margin-bottom: -10000px;overflow: hidden;padding-bottom: 10000px;}
+#pre_right{background:url(../images/vote_bg.gif);width:200px;float:right;padding-left:7px;text-align:left;margin-bottom: -10000px;overflow: hidden;padding-bottom: 10000px}
+#pre_right ul{margin-top: 20px;overflow:hidden;width:190px;}
+#pre_right li{height:15px;overflow:hidden;margin-top:10px}
+#pre_right a:visited {color:#000;text-decoration: none;}
+#pre_right a:link {color: #000;text-decoration: none;}
+.copyright{width:960px;height:29px;background:url(../images/copyright.gif)}
+#previous{border:0;position:absolute;top:5px;left:15px;cursor:pointer}
+#pager{margin-top:10px;position:relative;}
+#next{border:0;position:absolute;top:5px;right:15px;cursor:pointer}

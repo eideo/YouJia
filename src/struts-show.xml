@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package namespace="/show" name="show" extends="struts-default">
+		<action name="*" method="{1}" class="showAction">
+			<result name="entities">/WEB-INF/jsp/show/entities.jsp</result>
+			<result name="upload">/WEB-INF/jsp/show/upload.jsp</result>
+		</action>	
+	</package>
+</struts>

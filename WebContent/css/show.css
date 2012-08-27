@@ -1,0 +1,78 @@
+#container{width:960px;margin:0 auto;}
+#nav{height:15px;background:#000;padding:12px 44px;position:relative}
+#show_main{padding-left:10px;}
+#show_left{margin-top:14px;width:740px;float:left;height:720px;position:relative;overflow:hidden}
+#show_right{background:url(../images/vote_bg.gif);width:207px;height:734px;float:right}
+#show_nav{width:740px;height:75px;position:relative;text-align:left}
+#show_nav input{margin-right:2px}
+#showers{width:740px;}
+#nav{height:48px;background:#eee;position:relative}
+.shower{width:166px;height:195px;margin-bottom:10px;margin-right:19px;float:left}
+.shower_pic{width:166px;height:141px;overflow:hidden;margin-bottom:5px;cursor:pointer;border:1px solid color:#d5d5d5;background:#e6e3e3;display:table-cell;vertical-align:middle;text-align:center;}
+.shower_re img{border:0px;position:absolute;right:0px;top:0px;cursor:pointer}
+.shower_re{padding:2px;height:15px;position:relative}
+.hobby{width:20px;height:19px;position:absolute;top:0;right:2px;cursor:pointer}
+#log{position:absolute;top:0;right:0;cursor:pointer}
+.love{background:url(../images/vote_love.gif);}
+.nolove{background:url(../images/vote_unsel.gif);}
+.shower_vote{position:absolute;top:0;right:0px;}
+.shower_vote1{position:absolute;top:-3px;right:70px;}
+.v_m{float:left;background:url(../images/vote_m.gif);height:16px;width:30px;padding-top:3px}
+.v_l{background:url(../images/vote_l.gif);width:2px;height:19px;float:left}
+.v_r{background:url(../images/vote_r.gif);width:2px;height:19px;float:left}
+.v_n{color:#8c8b8b;position:absolute;top:2px;left:5px;font-weight:bold}
+.shower_a{color:#bebebe;margin-left:4px;margin-top:3px;position:relative;text-align:left;overflow:hidden;height:20px}
+.show_dis{float:left;margin-right:14px;margin-bottom:10px;}
+.sel .a{background:url(../images/distct_sel.gif);width:28px;height:28px;float:left}
+.sel .b{cursor:pointer;background:#f83676;color:#fff;font-weight:bold;height:21px;float:left;padding-top:7px}
+.unsel .a{background:url(../images/distct_unsel.gif);width:28px;height:28px;float:left}
+.unsel .b{cursor:pointer;background:#282D2C;color:#A7A7A7;font-weight:bold;height:21px;float:left;padding-top:7px}
+.copyright{width:960px;height:29px;background:url(../images/copyright.gif)}
+#pager{position:absolute;bottom:30px;left:0px;width:740px}
+#previous{border:0;position:absolute;top:5px;left:0;cursor:pointer}
+#next{border:0;position:absolute;top:5px;right:20px;cursor:pointer}
+#shower_detail{position:relative;margin:0 auto;width:165px;height:720px;margin-top:14px}
+#shower_bio{color:#bebebe;margin-top:6px;text-align:left;padding-left:4px;font-weight:bold;width:164px;height:104px;overflow:hidden}
+#comment{width:211px;height:174px;}
+#comment_header{width:196px;height:26px;background:url(../images/comment_header.gif);padding:7px 15px 0 0;text-align:right}
+#comment_header img{cursor:pointer}
+#comment_footer{width:211px;height:12px;background:url(../images/comment_footer.gif)}
+#comment_email{padding-left:3px;width:184px;margin:0 auto;color:#fff;text-align:left}
+#comment_main{background:#1c1c1e;width:211px}
+#comment_content{padding-left:3px;width:184px;height:62px;background:url(../images/content.gif);margin:0 auto;margin-top:5px;}
+#comment_send{margin:0 auto;margin-top:5px;cursor:pointer;}
+#comment_email input{width:184px;height:28px;border:0;background:transparent}
+#comment_content textarea{width:180px;overflow:hidden;height:60px;border:0;background:transparent}
+#comment_list{width:165px;height:243px;}
+.comment_voter_info0{text-align:left;}
+.comment_voter_info1{text-align:right;}
+.comment_voter span{color:#6a6a6a;margin-left:3px;text-decoration:underline;}
+.c_h{width:139px;height:3px;background:url(../images/com_header.gif) no-repeat;overflow:hidden}
+.c_f{width:139px;height:3px;background:url(../images/com_footer.gif) no-repeat;}
+.c_c{width:136px;background:url(../images/com_line.gif) repeat-y;padding-left:3px;height:26px;overflow:hidden;text-align:left} 
+.comment_voter{position:relative;height:44px;margin-top:12px}
+.comment_content0{position:absolute;left:19px;top:17px}
+.comment_content1{position:absolute;left:0;top:17px}
+#pic_close{position:absolute;right:0px;top:0px;cursor:pointer;background-image:url(../images/close.png);width: 36px;height:36px;}
+#user_big_div{width:446px;height:552px;overflow:hidden;border:1px solid color:#d5d5d5;background:#e6e3e3;display:table-cell;vertical-align:middle;text-align:center;}
+.shower_pic img {vertical-align: middle;}
+/*投票框*/
+#info{position:relative;width:273px;height:193px;background:#eee;border-top:7px solid #fff;border-bottom:7px solid #fff;border-left:5px solid #fff;border-right:5px solid #fff}
+#info_title{position:absolute;left:9px;top:17px}
+#info_confirm{position:absolute;bottom:7px;left:84px;cursor:pointer}
+#info_close{position:absolute;right:-10px;top:-10px;cursor:pointer}
+#info_nn{position:absolute;left:24px;top:72px}
+#info_phone{position:absolute;left:24px;top:115px}
+#info_nn_input{height:25px;width:172px;background:url(../images/info_input.gif);border:0;position:absolute;left:70px;top:64px;padding-left:5px;padding-top:5px}
+#info_phone_input{height:25px;width:172px;background:url(../images/info_input.gif);border:0;position:absolute;left:70px;top:106px;padding-left:5px;padding-top:5px}
+#info input{width:160px;height:20px;margin:0;padding:0;background:transparent;border:0}
+#info_complete{position:relative;width:273px;height:104px;background:#eee;border-top:7px solid #fff;border-bottom:7px solid #fff;border-left:5px solid #fff;border-right:5px solid #fff}
+#info_success{position:absolute;left:74px;top:47px;}
+/*评论框*/
+#info_comments{position:relative;width:273px;height:193px;background:#eee;border-top:7px solid #fff;border-bottom:7px solid #fff;border-left:5px solid #fff;border-right:5px solid #fff}
+#info_comments input{width:182px;height:20px;margin:0;padding:0;background:transparent;border:0}
+#info_nn_2{position:absolute;left:15px;top:20px}
+#info_comm{position:absolute;left:15px;top:50px}
+#info_nn2_input{height:25px;width:194px;background:url(../images/info_input2.gif);border:0;position:absolute;left:53px;top:12px;padding-left:5px;padding-top:5px}
+#info_comment_area{width:193px;height:93px;background:url(../images/info_comment.gif);position:absolute;padding-left:5px;padding-top:5px;left:53px;top:52px}
+#info_comment_area textarea{width:188px;height:80px;border:0;overflow:hidden}
